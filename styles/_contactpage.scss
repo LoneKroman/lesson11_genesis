@@ -1,0 +1,137 @@
+.headline_section_contactpage {
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 5fr 4fr; 
+    grid-template-rows: 2fr 1fr 1fr;
+    max-width: 1110px;
+    width: 100%;
+    min-height: 291px;
+}
+
+.headline_contactpage{
+    max-width: 460px;
+    width: 100%;
+    min-height: 174px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+.paragraph_contactpage {
+    max-width: 445px;
+    width: 100%;
+    min-height: 56px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0;
+}
+
+.form_container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    max-width: 475px;
+    width: 100%;
+    min-height: 291px;    
+}
+
+.form_contactpage {
+    max-width: 475px;
+    width: 100%;
+    min-height: 291px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 20px;
+}
+
+
+.name {
+    max-width: 475px;
+    width: 100%;
+    min-height: 37px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+     
+
+.email {    
+    max-width: 475px;
+    width: 100%;
+    min-height: 37px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.message {  
+    max-width: 475px;
+    width: 100%;
+    min-height: 37px; 
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;   
+}
+
+
+.form_button {
+    background-color: #4A4FF2;
+    width: 125px;
+    height: 50px;
+    border-style: none;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.button_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+input {    
+    background-color: #F2F2F2;    
+    width: 475px;
+    height: 36px;
+    border-style: none;    
+}
+
+textarea {
+    background-color: #BE0909;
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width: 400px;
+    height: 36px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width: 400px;
+    height: 36px;
+}
+
+.map_section {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 570px;
+    margin-bottom: 110px;
+}
+
+ 
